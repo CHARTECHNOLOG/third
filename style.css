@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg__website {
+  width: 100%;
+  height: 90vh;
+  background-image: url(images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nav__bar {
+  text-align: center;
+  height: 8vh;
+  background-color: rgb(8, 8, 104);
+  color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 50, 0.5);
+  border-top: 2px solid rgb(111, 252, 111);
+}
+.heading__container h4 {
+  text-align: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 5.5rem;
+}
+.login__container {
+  background-color: #fff;
+  border-right: 2px solid rgb(111, 252, 111);
+  border-left: 2px solid rgb(111, 252, 111);
+}
+.secure__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secure__container h2 {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+.form__id {
+  font-weight: bolder;
+}
+#btn__submit {
+  width: 100%;
+  background-color: rgb(8, 8, 104);
+  outline: none;
+  border: none;
+}
+#btn__submit a {
+  color: #fff;
+  text-decoration: none;
+}
+.info__container {
+  background-color: #fff;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.links__login a {
+  color: rgb(8, 8, 200);
+  text-decoration: none;
+}
+.apple__container {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+}
+.apple__container i {
+  width: 700px;
+  color: #fff;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

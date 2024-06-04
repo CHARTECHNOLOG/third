@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samson Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap file-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--  for the header section -->
+    <nav class="navbar nav__bar">
+      <div class="container heading__container">
+        <h4>NEIGHBORS FCU</h4>
+      </div>
+    </nav>
+
+   <div class="container bg__website">
+    <div class="container-sm login__container">
+        <div class="container secure__container">
+          <h1>Secure Login</h1>
+          <h2>?</h2>
+        </div>
+        <form name="myform">
+          <div class="mb-3 my-3">
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="User ID"
+              id="email"
+              name="uemail"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="password"
+              class="form-control"
+              id="exampleInputPassword1"
+              placeholder="Password"
+              id="password"
+              name="pass"
+            />
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+            <label class="form-check-label form__id" for="exampleCheck1"
+              >Remember my user ID</label
+            >
+          </div>
+          <button type="submit" class="btn btn-primary" id="btn__submit" onclick="auth()">
+            <a href="#">Log ln</a>
+          </button>
+  
+          <div class="row ">
+              <div class="container col-5 my-3 links__login">
+                  <a href="#">Forgot Password ?</a><br /><br /><br />
+        
+                  <a href="#">Register</a><br />
+                  <a href="#">Privacy Policy</a>
+                </div>
+                <div class="container col-7 my-3 links__login">
+                  <br /><br /><br /><br>
+                    <a href="#">ATM/Branch Locator</a><br />
+                    <a href="#">Disclaimer</a>
+                  </div>
+                </div>
+          </div>
+        </form>
+
+        <div class="container my-5 info__container">
+            Click on Google Play icon to download our native app that allows you deposit a check by taking a picture of it!
+        </div>
+        <!-- <div class="apple__container">
+         
+            <i class="bi bi-apple"></i>
+          
+               <div class="para">
+                <p>Download on the </p>
+               <p>App Store</p>
+               </div>
+          </div> -->
+         </div>
+        </div>
+      </div>
+   </div>
+
+   <footer class="container-fluid footer_container">
+             <p>Routing Number:265473317 | <span style="color: rgb(8, 8, 200);">225.819.2178</span></p>
+             <p style="font-size: 0.9rem;">&copy; 2024 Neighbors FCU. All Rights Reserved <span  style="color: rgb(8, 8, 200);">View Full Site</span></p>
+             <div class="row">
+              <div class="col-6"><p>Equal Housing Lender</p></div> 
+              <div class="col-6">Insured by NCF</div>
+             </div>
+   </footer>
+
+   
+
+    <!--  for Javascript bootstrap file -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+
+   
+  </body>
+</html>
